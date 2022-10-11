@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.site-name {
+  color: coral;
+}
+
+.header {
+  display: flex;
+  margin: 2rem auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-menu ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
