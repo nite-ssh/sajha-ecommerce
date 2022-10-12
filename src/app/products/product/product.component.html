@@ -1,0 +1,31 @@
+<div class="d-flex justify-content-center container mt-5">
+  <div class="card p-3 bg-white">
+    <i class="fa fa-apple"></i>
+    <div class="about-product text-center mt-2">
+      <img [src]="inputProduct.thumbnail" width="250" />
+      <div>
+        <h4>{{ inputProduct.title }}</h4>
+        <h6 class="mt-0 text-black-50">{{ inputProduct.description }}</h6>
+      </div>
+    </div>
+    <div class="stats mt-2">
+      <div class="d-flex justify-content-between p-price">
+        <b>Price:</b><span>{{ inputProduct.price }}</span>
+      </div>
+      <div class="d-flex justify-content-between p-price">
+        <b>Rating:</b><span>{{ inputProduct.rating }}</span>
+      </div>
+      <div class="d-flex justify-content-between p-price">
+        <b>Brand:</b><span>{{ inputProduct.brand }}</span>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between total font-weight-bold mt-4">
+      <span>Avavilibility</span
+      ><span>{{ inputProduct.available ? "Avavible" : "Unavailable" }}</span>
+    </div>
+    <div class="product__options">
+      <button class="btn btn-success">Show Details</button>
+      <button class="btn btn-success">Buy Now</button>
+    </div>
+  </div>
+</div>
