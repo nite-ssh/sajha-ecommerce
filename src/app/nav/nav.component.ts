@@ -5,7 +5,6 @@ import { Component, OnInit } from '@angular/core';
   // selector: '.app-nav', --can be used as a class
   selector: 'app-nav', //--can be used as an element
   templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.css'],
 })
 export class NavComponent implements OnInit {
   constructor() {}

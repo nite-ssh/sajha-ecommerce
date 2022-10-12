@@ -1,5 +1,5 @@
-<div class="search-div">
+<article class="search">
   <span><b>Search:</b></span>
-  <input type="text" (input)="inputSelectHandler($event)" />
+  <input type="text" [(ngModel)]="searchValue" class="search__input" />
   <span>You searched for "{{ searchValue }}"</span>
-</div>
+</article>

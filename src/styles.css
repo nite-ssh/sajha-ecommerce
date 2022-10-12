@@ -1,7 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif, sans-serif;
+  font-size: 16px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.navbar__logo-text {
+  color: coral;
+}
+.navbar__logo-wrapper {
+  margin: 20px 0px;
+}
+.navbar__items {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__item {
+  text-transform: uppercase;
+}
+
+.search {
+  margin: 10px 20px;
+  padding: 10px 20px;
+}
+.search__input {
+  width: 240px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 0.2rem;
+  border: 2px solid #434343;
+  padding-left: 8px;
+}/*# sourceMappingURL=styles.css.map */
